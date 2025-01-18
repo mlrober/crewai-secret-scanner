@@ -1,0 +1,16 @@
+{
+    "keywords": [
+      "access token",
+      "api_?key",
+      "API key",
+      "api_token"
+    ],
+  "custom_rules": {
+    "Slack_Token": "xox(?:a|b|p|o|s|r)-(?:\\d+-)+[a-z0-9]+",
+    "AWS Access Key": "(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}",
+      "AWS Secret Key": "(?i)aws(.{0,20})?['\\\"][0-9a-zA-Z\\/+]{40}['\\\"]",
+      "AWS MWS key": "amzn\\.mws\\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+  }
+}
+  
+      
